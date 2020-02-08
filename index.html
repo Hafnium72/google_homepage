@@ -56,10 +56,16 @@
 
  .li2 {
    float: left;
+   display: block;
+   margin: 0px;
+   padding: 22px;
  }
 
  .li3 {
    float: right;
+   display: block;
+   margin: 0px;
+   padding: 22px;
  }
 
     #boite {
@@ -83,21 +89,25 @@
     #boxes {
      display: grid;
      grid-gap: 5px 10px;
-     width: 350px;
+     width: 100px;
      grid-template-rows: 1fr 1fr;
      grid-template-areas: "button button";
      position: relative;
      margin: auto;
-     margin-top: 610px;
-     margin-right: 450px;
+     margin-top: 30px;
+     margin-right: 50px;
 }
 
 footer {
     clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
+    position: absolute;
+    height: 50px;
+    margin-top: 200px;
+    font-size: 13px;
+    background-color: #F2F2F2;
+    border-top: solid 1px rgb(212, 211, 211)
 }
+
    
  </style>
 
@@ -120,9 +130,10 @@ footer {
     <div class="micro" name="Utiliser la recherche vocale"></div></div>
      
     <div id="boxes">
-      <button class="box1">Recherche Google</button>
-      <button class="box2">J'ai de la chance</button>
-      </div>
+    <button class="box1">Recherche Google</button>
+    <button class="box2">J'ai de la chance</button>
+    </div>
+
     
     </body>
     <footer>
