@@ -7,8 +7,7 @@
     .logo {
      display: block;
      margin: auto;
-     padding-top: 180px;
-     margin-left: 600px;
+     margin-top: 180px;
      text-align: center;
     } 
     #bar {
@@ -26,7 +25,8 @@
      height: 24px;
      width: 24px;
      vertical-align: middle;
-     padding-left: 560px;
+     padding-left: 660px;
+     margin-left: 360px;
      margin-top: 8px;
      cursor: pointer;
      padding: 0 8px;
@@ -71,12 +71,16 @@
     border-radius: 4px;
     border: none;
 }
+ #boxes {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  margin-right: 100px;
+}
 
-     #bar, #boite {
-         vertical-align: auto;
-         padding: auto;
-         margin: auto;
-     }
    
  </style>
 
@@ -98,15 +102,11 @@
     <input name="barre de recherche" type="text" class=barre>
     <div class="micro" name="Utiliser la recherche vocale"></div>
      
-     <div id="boite">
-      <button class="recherche">Recherche Google</button>
-      <button class="chance">J'ai de la chance</button>
+     <div id="boxes">
+      <button class="box1">Recherche Google</button>
+      <button class="box2">J'ai de la chance</button>
       </div>
     
     </body>
     <footer>
-
-
-
-
 
