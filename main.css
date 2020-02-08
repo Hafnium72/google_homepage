@@ -1,0 +1,115 @@
+
+    body, footer, a, ul, li {
+     font-family: Arial, Arial Black,Helvetica, sans-serif;
+    font: Arial,Helvetica;
+     }
+ 
+    .logo {
+     display: block;
+     margin: auto;
+     margin-left: 25px;
+     padding-top: 180px;
+     text-align: center;
+    } 
+    #bar {
+     width: 576px;
+     height: 41px;
+     border: 1px solid #dfe1e5;
+     border-radius: 20px;
+     display: flex;
+     margin: auto;
+   }
+    .micro {
+     background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+     background-size: 24px;
+     height: 24px;
+     width: 24px;
+     vertical-align: middle;
+     padding-left: 660px;
+     margin-left: 360px;
+     margin-top: 8px;
+     cursor: pointer;
+     padding: 0 8px;
+     flex: 1 0 auto;
+   }
+    .barre  {
+      width: 526px;
+      height: 31px;
+      border-style: hidden;
+      border-radius: 50px;
+      display: flex;
+      margin-top: 200px;
+      margin: auto;
+      margin-left: 10px;
+   }
+     #bar:hover {
+    box-shadow: 2px 2px 5px #A7A7A7,-2px -2px 5px #A7A7A7;
+ }
+    .li1 {
+   float: right;
+ }
+ 
+    .li1, a {
+     display: block;
+     padding: 8px;
+ }
+
+ .li2 {
+   float: left;
+   display: block;
+   margin-bottom: 0px;
+   padding: 0px 22px 5px 22px;
+   font-size:13px;
+ }
+
+ .li3 {
+   float: right;
+   display: block;
+   margin-bottom: 0px;
+   padding: 0px 22px 5px 22px;
+   font-size:13px;
+ }
+
+    #boite {
+     margin: auto;
+     width: 80px;
+     display: flex;
+     flex-direction: row;
+
+ }
+    button {
+     background-color: #F2F2F2;
+     width: 130px;
+     height: 35px;
+     color: rgb(106, 106, 107);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 10pt;
+     border-radius: 4px;
+     border: none;
+     cursor: pointer;
+}
+    #boxes {
+     display: grid;
+     grid-gap: 5px 10px;
+     width: 100px;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: "button button";
+     position: relative;
+     margin: auto;
+     margin-top: 30px;
+     margin-left: 40%;
+}
+
+   footer {
+    position: absolute; 
+    background-color: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgb(209, 209, 209);
+    height: 50px;
+}
+
+body {
+   padding:10px;
+   padding-bottom:50px;   
+}
