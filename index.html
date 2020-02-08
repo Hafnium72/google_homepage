@@ -27,12 +27,20 @@
     padding: 0 8px;
     flex: 1 0 auto;
   }
-  .text {
-    width: 500px;
-    height: 40px;
-    border-radius: 20px;
-    padding-right: 66px;
+   .barre  {
+     width: 526px;
+     height: 31px;
+     border-style: hidden;
+     border-radius: 50px;
+     display: flex;
+     margin-top: 180px;
+     margin: auto;
+     margin-left: 10px;
   }
+    #bar:hover {
+   box-shadow: 2px 2px 10px #A7A7A7,-2px -2px 15px #A7A7A7;
+}
+  
 </style>
 
 <body>
@@ -41,9 +49,8 @@
 </div>
 
 <div id=bar>
-<input name="barre de recherche" type="text">
+<input name="barre de recherche" type="text" class=barre>
 <div class="micro" name="Utiliser la recherche vocale"></div>
-</div>
 
 
 
