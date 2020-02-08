@@ -1,5 +1,10 @@
-body {
+body .logo {
     display: block;
     margin: auto;
-    width: 50%;
+    position: fixed;
+    
+  }
+
+  p {
+      color : red;
   }
