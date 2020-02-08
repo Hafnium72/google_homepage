@@ -59,18 +59,24 @@
      margin-top: 150px;
      display: flex;
      flex-direction: row;
+
  }
-    #box1 {
-     width: 60px;
-     height: 30px;
-     background-color: #F2F2F2;
- }
- 
-    #box1 {
-     width: 60px;
-     height: 30px;
-     background-color: #F2F2F2;
- }
+    button {
+    background-color: #F2F2F2;
+    width: 130px;
+    height: 35px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-radius: 4px;
+    border: none;
+}
+
+     #bar, #boite {
+         vertical-align: auto;
+         padding: 0;
+         margin: 0;
+     }
    
  </style>
 
@@ -85,7 +91,7 @@
       <li><a href="gmail"></a>gmail</li>
     </ul>
     
-    <div><img class="logo" src="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    <div id="boite"><img class="logo" src="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
     </div>
     
     <div id=bar>
@@ -93,9 +99,8 @@
     <div class="micro" name="Utiliser la recherche vocale"></div>
      
      <div id="boite">
-       <div id="box1">
-         <p>J'ai de la chance</p> </div>
-       <div id="box2"> <p>Recherche Google</p></div>
+      <button class="recherche">Recherche Google</button>
+      <button class="chance">J'ai de la chance</button>
       </div>
     
     </body>
