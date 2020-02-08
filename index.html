@@ -18,6 +18,7 @@
      border-radius: 20px;
      display: flex;
      margin: auto;
+     padding-top: 25px;
    }
     .micro {
      background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
@@ -45,18 +46,26 @@
      #bar:hover {
     box-shadow: 2px 2px 5px #A7A7A7,-2px -2px 5px #A7A7A7;
  }
-    li {
+    .li1 {
    float: right;
  }
  
-    li, a {
+    .li1, a {
      display: block;
      padding: 8px;
  }
+
+ .li2 {
+   float: left;
+ }
+
+ .li3 {
+   float: right;
+ }
+
     #boite {
      margin: auto;
      width: 80px;
-     margin-top: 150px;
      display: flex;
      flex-direction: row;
 
@@ -70,15 +79,18 @@
      font-size: 10pt;
      border-radius: 4px;
      border: none;
+     cursor: pointer;
 }
     #boxes {
      display: grid;
-     grid-gap: 20px 20px;
-     width: 500px;
+     grid-gap: 5px 10px;
+     width: 350px;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: "button button";
      position: relative;
      margin: auto;
-     margin-top: 100px;
-     margin-right: 200px;
+     margin-top: 610px;
+     margin-right: 450px;
 }
 
    
@@ -89,10 +101,10 @@
 <body>
   
     <ul>
-        <li><a href="https://zupimages.net/viewer.php?id=20/06/mwbb.jpg"><img src="https://zupimages.net/up/20/06/mwbb.jpg" alt="" width="32px" /></a></li>
-      <li><a href="https://zupimages.net/viewer.php?id=20/06/v61y.png"><img src="https://zupimages.net/up/20/06/v61y.png" alt="Applications Google" height="22px" /></a></li>
-      <li><a href="images"></a> images</li>
-      <li><a href="gmail"></a>gmail</li>
+        <li class=li1><a href="https://zupimages.net/viewer.php?id=20/06/mwbb.jpg"><img src="https://zupimages.net/up/20/06/mwbb.jpg" alt="" width="32px" /></a></li>
+      <li class=li1><a href="https://zupimages.net/viewer.php?id=20/06/v61y.png"><img src="https://zupimages.net/up/20/06/v61y.png" alt="Applications Google" height="22px" /></a></liclass=1>
+      <li class=li1><a href="images"></a> images</liclass=1>
+      <li class=li1><a href="gmail"></a>gmail</liclass=1>
     </ul>
     
     <div id="boite"><img class="logo" src="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
@@ -109,4 +121,19 @@
     
     </body>
     <footer>
+        <ul>
+          <li class="li2"><a href="publicité"></a> Publicité</li>
+          <li class="li2"><a href="gmail"></a>Enreprise</li>
+          <li class="li2"><a href="A propos"></a>A propos</li>
+          <li class="li2"><a href="fonctionnement"></a>Comment fontionne la recherche google ?</li>
+        </ul>
+     <ul>
+          <li class="li3"><a href="public judi"></a> Publication Judiciaire</li>
+          <li class="li2"><a href="info"></a>Info consommateurs</li>
+          <li class="li3"><a href="adieuvotrevieprivé"></a>Confidentialité</li>
+          <li class="li3"><a href="conditions"></a>Conditions</li>
+          <li class="li3"><a href="paramètres"></a>Paramètres</li>
+        </ul>
+
+    </footer>
 
